@@ -25,13 +25,13 @@
 <form class="sub-text">
     <label id="original" for="original">Enter your lengthy URL :</label><br>
 
-    <input class="entry-feild" type="text"  name="original" value=" Boring URL"><br>
+    <input class="entry-feild" type="url"  name="original" placeholder="  Boring URL"><br>
 
-    <input class="input-button" type="button" value="Shorten"><br>
+    <input class="input-button" type="submit" value="Shorten"><br>
 
     <label id="output" for="output">Output URL :</label><br>
 
-    <input class="entry-feild" type="text"  name="output" value=" Cute URL"><br>
+    <input class="entry-feild" type="text"  name="output" placeholder="  Cute URL" {% block output%}{% endblock %}><br>
 
     <input class="copy-button" type="button" value="Copy">
 
