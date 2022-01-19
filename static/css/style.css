@@ -76,6 +76,20 @@ h1 {
   padding: 12px 50px;
   font-size: 15px;
 }
+
+.input-button:hover {
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fa8142;
+  border: 4px solid #fa8142;
+  border-radius: 8px;
+  color: #1c1a1a;
+  padding: 12px 50px;
+  font-size: 16px;
+}
+
 .copy-button {
   cursor: pointer;
   font-weight: bold;
@@ -88,6 +102,20 @@ h1 {
   padding: 12px 50px;
   font-size: 15px;
 }
+
+.copy-button:hover {
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fb41b1;
+  border: 4px solid #fb41b1;
+  border-radius: 8px;
+  color: #1c1a1a;
+  padding: 12px 50px;
+  font-size: 16px;
+}
+
 .entry-feild {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
