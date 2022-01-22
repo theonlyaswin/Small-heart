@@ -21,4 +21,6 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(debug=False,host='0.0.0.0')
+    app.run(debug=False)
+
+# debug is set to false which was true and also not hosting port was specified....all these are done just for hosting purposes so change it with change in needs.
