@@ -1,11 +1,9 @@
 # 💖Small Heart
 ## 🥨Simple . 🍕Open-Source . 🍔URL - Shortner
 
-<br>
+
 Small Heart is a web-app by which one can shorten a lengthy URL in no time.
 No account creation or payment is required and its completely Open - Source !
-<br>
-<br>
 
 Small Heart is built using Flask framework of Python and the purpose of shortening the URL is done by the [pyshorteners](https://pypi.org/project/pyshorteners/) module. Currently Small Heart is in its 1st version,more updates are yet to be maded.
 
@@ -22,8 +20,17 @@ Small Heart is built using Flask framework of Python and the purpose of shorteni
 ## 🔗Link : [Small Heart💖](https://small-heart-demo.herokuapp.com/)
 
 <br>
+
 📝Note : The demo is deployed using Heroku's free version. So the site can get laggy if the amount of traffic increases.
+
 <br>
+
+## How to run?
+- Create a new virtual enviroment in the project folder whit: `python -m venv [name-of-your-venvi]`
+- Activate the venvi whit: `[name-of-your-venvi]\Scripts\activate`
+- Install all the required modules whit: `pip install .\requirements.txt`
+- Run the Flask local server whit: `flask run`
+
 <br>
 
 # 🧨Just Read

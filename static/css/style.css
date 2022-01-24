@@ -23,23 +23,42 @@ body {
   font-size: 25px;
   letter-spacing: 3px;
 }
+
 h1 {
-  font-family: "Lobster", cursive;
+  font-family: "Lobster", cursive, sans-serif;
   color: white;
 }
+
 #main-title2 {
   color: red;
 }
+
 #main-title1 {
   padding-right: 10px;
 }
 
+.sub-text-span {
+  font-size: 25px;
+  display: flex;
+  color: #4f4e4e;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sub-text-span > * { padding: 7px 3ch; }
+
+.main {
+  margin-top: 5ch;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  border: #00ff47 1px solid;
+}
+
 .sub-text {
   font-family: "Poppins", sans-serif;
-  color: #4f4e4e;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   text-align: center;
   margin-top: 1%;
@@ -47,7 +66,9 @@ h1 {
   min-height: 20px;
   font-size: 25px;
   font-weight: bold;
+  height: 60vh;
 }
+
 #line {
   border: 2px dashed #312b2b;
   width: 100%;
@@ -65,7 +86,6 @@ h1 {
   letter-spacing: 1.5px;
 }
 .input-button {
-  cursor: pointer;
   font-weight: bold;
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
@@ -73,8 +93,8 @@ h1 {
   border: 4px solid #fa8142;
   border-radius: 8px;
   color: #fa8142;
-  padding: 12px 50px;
   font-size: 15px;
+  padding: 7px 50px;
 }
 
 .input-button:hover {
@@ -86,12 +106,11 @@ h1 {
   border: 4px solid #fa8142;
   border-radius: 8px;
   color: #1c1a1a;
-  padding: 12px 50px;
   font-size: 16px;
+  padding: 8px 51px;
 }
 
 .copy-button {
-  cursor: pointer;
   font-weight: bold;
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
@@ -99,8 +118,8 @@ h1 {
   border: 4px solid #fb41b1;
   border-radius: 8px;
   color: #fb41b1;
-  padding: 12px 50px;
   font-size: 15px;
+  padding: 7px 50px;
 }
 
 .copy-button:hover {
@@ -112,22 +131,26 @@ h1 {
   border: 4px solid #fb41b1;
   border-radius: 8px;
   color: #1c1a1a;
-  padding: 12px 50px;
   font-size: 16px;
+  padding: 8px 51px;
 }
 
-.entry-feild {
+.entry-field {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  width: 50%;
+  width: 80vw;
   height: 50px;
   border-radius: 5px;
   border: #1c1a1a;
   background-color: #141414;
   color: #757575;
+  text-align: center;
 }
-#footer {
+.footer {
+  width: fit-content;
   font-size: 14px;
   color: white;
-  padding-top: 70px;
+  position: absolute;
+  bottom: 0;
 }
+
