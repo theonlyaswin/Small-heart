@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Small Heart</title>
     <link rel="shortcut icon" href="{{ url_for('static',filename='images/logo.ico') }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.goo"https://fonts.googleapis.com">
-    <link rel="preconnect" href=gleapis.com/css2?family=Lobster&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
     <script src="{{ url_for('static',filename='js/script.js') }}" defer></script>
 </head>
@@ -19,25 +19,29 @@
         <h1 id="main-title1">Small</h1>
         <h1 id="main-title2">Heart</h1>
     </div>    
-    <h3 class="sub-text">Simple . Open-Source . URL-Shortner</h3>
+    <div class="sub-text-span"><span>Simple</span><span>Open-Source</span><span>URL-Shortner</span></div>
     <div id="line">
     </div>
+<div class="main">
 
-<form class="sub-text" , method="post">
-    <label id="original" for="original">Enter your lengthy URL :</label><br>
-
-    <input class="entry-feild" type="url"  name="original" placeholder="  Boring URL" value="{{original_url}}"><br>
-
-    <input class="input-button" type="submit" value="Shorten"><br>
-
-    <label id="output" for="output">Output URL :</label><br>
-
-    <input class="entry-feild" id="final" type="text"  name="output" placeholder="  Cute URL" value="{{output_url}}"><br>
-
-    <input class="copy-button" id= "copy-button" type="button" value="Copy">
-
-</form>
-<h3 class="sub-text" id="footer">Made with 💖 by Aswin</h3>
+    <form class="sub-text" , method="post">
+        <label id="original" for="original">Enter your lengthy URL :</label>
+        
+        <input class="entry-field" type="url"  name="original" placeholder="  Boring URL" value="{{original_url}}">
+        
+        <input class="input-button" type="submit" value="Shorten">
+        
+        <label id="output" for="output">Output URL :</label>
+        
+        <input class="entry-field" id="final" type="text"  name="output" placeholder="  Cute URL" value="{{output_url}}">
+        
+        <input class="copy-button" id= "copy-button" type="button" value="Copy">
+    </form>
+    
+    <footer class="footer">
+        <h3 id="footer">Made with 💖 by Aswin</h3>
+    </footer>
+</div>
 </body>
 
 </html>
